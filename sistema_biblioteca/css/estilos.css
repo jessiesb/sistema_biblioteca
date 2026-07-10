@@ -1,0 +1,86 @@
+
+body {
+    font-family: Georgia, serif;
+    background: #f7f2e9;
+    color: #4a3b2a;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.contenedor {
+    background: #fff8ee;
+    border: 2px solid #e0d2b5;
+    border-radius: 14px;
+    width: 90%;
+    max-width: 750px;
+    margin: 60px auto;        
+    padding: 40px;           
+    box-shadow: 0 0 25px rgba(0,0,0,0.12);
+}
+
+
+.titulo {
+    font-size: 34px;
+    margin-bottom: 30px;      
+    color: #4a3b2a;
+}
+
+
+input {
+    width: 100%;
+    padding: 15px;            
+    margin-bottom: 20px;      
+    border: 1px solid #c9b79c;
+    border-radius: 8px;
+    font-size: 17px;
+    text-align: center;
+    background: #ffffff;
+}
+
+
+.boton, .accion {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;        
+    padding: 14px 24px;       
+    background: #d9c4a3;
+    color: #4a3b2a;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+.boton:hover, .accion:hover {
+    background: #c7b08e;
+    transform: scale(1.05);  
+}
+
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;        
+}
+
+.tabla th, .tabla td {
+    border: 1px solid #c9b79c;
+    padding: 14px;            
+    font-size: 16px;
+}
+
+.tabla th {
+    background: #e8dcc2;
+    font-size: 18px;
+}
+
+.tabla tr:nth-child(even) {
+    background: #f5ecdd;
+}
+
+.tabla tr:hover {
+    background: #f0e4cf;
+}
